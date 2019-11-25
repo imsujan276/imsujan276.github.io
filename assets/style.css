@@ -145,7 +145,7 @@ p {
     font-size: 48px;
     font-weight: bold;
     margin: 0 0 30px;
-	text-transform: uppercase;
+    text-transform: uppercase;
 }
 .coming-soon-text h4 {
     font-size: 24px;
@@ -192,6 +192,7 @@ p {
 }
 .coming-soon-text {
     margin: 50px 0 30px;
+    font-style: italic;
 }
 .countdown-section {
     border-radius: 5px;
