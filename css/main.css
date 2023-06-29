@@ -785,7 +785,7 @@ blockquote {
 ============================================================================= */
 .header {
   position: fixed;
-  width: 160px;
+  width: 200px;
   top: 0;
   bottom: 0;
   padding: 10px 0 0;
