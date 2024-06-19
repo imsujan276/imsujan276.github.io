@@ -1,0 +1,20 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/sujan-gainju-415147114"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/imsujan276"
+        },
+        {
+            "network" : "email",
+            "href": "mailto:sujangainju01@gmail.com"
+        },
+        {
+            "network" : "google_play",
+            "href": "https://pub.dev/publishers/sujangainju.com.np/packages"
+        }
+    ]
+}

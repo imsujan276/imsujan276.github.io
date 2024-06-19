@@ -1,0 +1,75 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/kalimati_price_nepal.png",
+            "title": "Kalimati Price Today",
+            "bodyText": "- Price list of Kalimati Vegetable Market, Kathmandu \n- Updated daily by the market itself \n- Available in both English and Nepali \n- Available on **Google Play Store**",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://play.google.com/store/apps/details?id=com.suga.kalimati_price"
+                }
+            ],
+            "tags" : [
+                "Flutter", "Github", "Android"
+            ]
+        },
+        {
+            "image" : "images/projects/ipo_results_nepal.png",
+            "title": "IPO Results Nepal",
+            "bodyText": "- Bulk Apply to available IPOs in Nepal \n- Available on **Google Play Store**",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://play.google.com/store/apps/details?id=np.com.sujangainju.iporesultnepal"
+                }
+            ],
+            "tags" : [
+                "Flutter", "Android"
+            ]
+        },
+        {
+            "image" : "images/projects/ntc_ncell_smart_cell_helplines.png",
+            "title": "NTC/NCELL/SMART CELL Helplines",
+            "bodyText": "- Helpline numbers for recharge, view owner info and more \n- Available on **Google Play Store**",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://play.google.com/store/apps/details?id=np.com.sujangainju.telecomhelplines"
+                }
+            ],
+            "tags" : [
+                "Flutter", "Android"
+            ]
+        },
+        {
+            "title": "pub.dev Portfolio",
+            "image" : "images/projects/pub.dev.png",
+            "bodyText": "- Flutter packages on **pub.dev**",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://pub.dev/publishers/sujangainju.com.np/packages"
+                }
+            ],
+            "tags" : [
+                "Flutter", "Pub.dev"
+            ]
+        },
+        {
+            "title": "Envato Portfolio",
+            "image" : "images/projects/envato.png",
+            "bodyText": "- Custom build flutter apps for sale on **Envato**",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://codecanyon.net/user/imsujan276/portfolio?direction=asc&order_by=sortable_at"
+                }
+            ],
+            "tags" : [
+                "Flutter"
+            ]
+        }
+        
+    ]
+}

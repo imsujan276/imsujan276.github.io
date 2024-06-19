@@ -1,0 +1,46 @@
+{
+    "experiences": [
+        {
+            "title": "Sr. Software Engineer (Flutter)",
+            "subtitle": "Nerd Platoon Pvt. Ltd.",
+            "workType": "Full-time",
+            "workDescription": [
+                "Responsible to design and develop the hybrid mobile application for the vehicle dealers and it customers.",
+                "Resposible for implementing the UI/UX and deplying it to the app stores and play stores.",
+                "Developed Flutter plugins for the project.",
+                "Push Notification implementation.",
+                "In-App Purchase implementation.",
+                "Google map integration.",
+                "Custom and complex UI implementation.",
+                "Google Admob integration.",
+                "Handled multiple projects at the same time."
+            ],
+            "dateText": "01/2018 – Present"
+        },
+        {
+            "title": "Consultant (Flutter)",
+            "subtitle": "Phluid World",
+            "workType": "Contract",
+            "workDescription": [
+                "Consulted the devlopers on the project and helped them to implement the logic.",
+                "Involved in bug fixing",
+                "Communication with QA team to resolve the issues.",
+                "Provided the solution for the issues the developers are facing."
+            ],
+            "dateText": "02/2025 – Present"
+        },
+        {
+            "title": "Flutter Developer",
+            "subtitle": "Frntlne",
+            "workType": "Freelance",
+            "workDescription": [
+                "Actively involved in the project",
+                "Bug fixes",
+                "UI/UX implementation",
+                "Designed mockup for the project",
+                "Implemented the design to the project"
+            ],
+            "dateText": "12/2021 – 08/2022"
+        }
+    ]
+}
