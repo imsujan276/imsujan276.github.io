@@ -1,10 +1,10 @@
-<!-- ---
+---
 title: Er. Sujan Gainju - Computer Engineer | Flutter Developer | Freelancer
 layout: template
 filename: index.md
----  -->
+--- 
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en" class="no-js">
 
 <head>
@@ -297,8 +297,8 @@ filename: index.md
             </div>
 
             <div class="section-content">
-              <div class="row">
-                <div class="col-xs-12 col-sm-8">
+              <!-- <div class="row"> -->
+                <div class="offset-1 col-10">
                   <div class="col-inner bs-30">
                     <div class="block-title">
                       <h3>Education</h3>
@@ -383,7 +383,7 @@ filename: index.md
                   </div>
                 </div>
 
-                <div class="col-xs-12 col-sm-4">
+                <div class="offset-1 col-10">
                   <div class="col-inner">
 
                     <div class="block-title">
@@ -484,7 +484,7 @@ filename: index.md
                     </div>
                   </div>
                 </div>
-              </div>
+              <!-- </div> -->
             </div>
           </div>
         </section>
@@ -523,7 +523,6 @@ filename: index.md
                           </li>
                         </ul>
                       </div>
-
                       <!-- Portfolio Grid -->
                       <div class="portfolio-grid three-columns">
 
