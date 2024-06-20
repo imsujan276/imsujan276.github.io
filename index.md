@@ -296,8 +296,8 @@ filename: index.md
               </div>
 
               <div class="section-content">
-                <div class="row">
-                  <div class="col-xs-12 col-sm-8">
+                
+                  <div class="col-12">
                     <div class="col-inner bs-30">
                       <div class="block-title">
                         <h3>Education</h3>
@@ -373,7 +373,7 @@ filename: index.md
                     </div>
                   </div>
 
-                  <div class="col-xs-12 col-sm-4">
+                  <div class="offset-2 col-8">
                     <div class="col-inner">
 
                       <div class="block-title">
@@ -474,7 +474,7 @@ filename: index.md
                       </div>
                     </div>
                   </div>
-                </div>
+                
               </div>
             </div>
           </section>
