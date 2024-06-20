@@ -570,8 +570,8 @@ filename: index.md
                               title="Flutter Packages"></a>
                           </div>
                           <i class="fa fa-file-alt"></i>
-                          <h4 class="name">Kritisha Construction</h4>
-                          <span class="category">WordPress</span>
+                          <h4 class="name">Flutter Packages</h4>
+                          <span class="category">Flutter, pub.dev</span>
                         </figure>
 
                         <figure class="item standard" data-groups='["category_all", "category_android"]'>
@@ -582,8 +582,8 @@ filename: index.md
                               title="Envato Portfolio"></a>
                           </div>
                           <i class="fa fa-file-alt"></i>
-                          <h4 class="name">Kritisha Construction</h4>
-                          <span class="category">WordPress</span>
+                          <h4 class="name">Envato Portfolio</h4>
+                          <span class="category">Flutter, Marketplace</span>
                         </figure>
 
                       </div>
