@@ -31,20 +31,19 @@ filename: index.md
                   <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="inner-content">
                       <div class="hp-text-block">
-                        <!-- Text rotation / Subtitle -->
-                        <div class="owl-carousel text-rotation">
-                          <div class="item">
-                            <div class="sp-subtitle">Flutter App Developer</div>
+                        <div style="display: flex; align-items: start;">
+                          <div style="flex: 1;">
+                          <h2 class="hp-main-title"><a href="#">Sujan Gainju</a></h2>
+                            <ul>
+                              <li> Flutter App Developer </li>
+                              <li> Computer Engineer</li>
+                              <li> Freelancer</li>
+                            </ul>
                           </div>
-                          <div class="item">
-                            <div class="sp-subtitle">Computer Engineer</div>
-                          </div>
-                          <div class="item">
-                            <div class="sp-subtitle">Freelancer</div>
-                          </div>
+                          <div><img src="/assets/images/main.png" style="height: 200px;"></div>
                         </div>
-                        <!-- /Text rotation / Subtitle -->
-                        <h2 class="hp-main-title"><a href="#">Sujan Gainju</a></h2>
+                        <br/>
+                        <!-- <h2 class="hp-main-title"><a href="#">Sujan Gainju</a></h2> -->
                         <p>Hi, my name is <strong>Er. Sujan Gainju</strong>. I'm currently living in Bhaktapur, Nepal. I
                           have
                           a degree in Computer Engineer; In my free time, I like to study new programming
@@ -57,6 +56,7 @@ filename: index.md
                 </div>
               </div>
             </div>
+            <div class="divider"></div>
             <div class="section-inner custom-page-content">
               <div class="page-content">
                 <!-- Services Block Title -->
@@ -140,6 +140,7 @@ filename: index.md
             </div>
           </section>
           <!-- End of Home Subpage -->
+          <div class="divider"></div>
          <!-- Resume Subpage -->
          <section class="pt-page" data-id="resume">
           <div class="section-inner custom-page-content">
