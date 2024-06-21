@@ -228,6 +228,7 @@ filename: index.md
                     </div>
                   </div>
                 </div>
+                <div class="divider"></div>
                 <div class="offset-1 col-10">
                   <div class="col-inner">
                     <div class="row">
@@ -286,6 +287,7 @@ filename: index.md
                           <!-- /Skill 6 -->
                         </div>
                       </div>
+                    <div class="divider"></div>
                       <div class="block-title ts-10">
                         <h3>Coding Skills<span></span></h3>
                       </div>
@@ -326,16 +328,12 @@ filename: index.md
           </div>
         </section>
         <!-- End of Resume Subpage -->
+          <div class="divider"></div>
           <!-- Portfolio Subpage -->
           <section class="pt-page" data-id="portfolio">
             <div class="section-inner custom-page-content">
               <div class="section-title-block second-style">
                 <h2 class="section-title">Portfolio</h2>
-                <h5 class="section-description">
-                  <a href="https://play.google.com/store/apps/dev?id=6505221814874321222" target="_blank">
-                    View All Projects
-                  </a>
-                </h5>
               </div>
               <div class="section-content">
                 <div class="row">
@@ -414,6 +412,7 @@ filename: index.md
             <!-- </div> -->
           </section>
           <!-- /Portfolio Subpage -->
+          <div class="divider"></div>
           <!-- Contact Subpage -->
           <section class="pt-page" data-id="contact">
             <div class="section-inner custom-page-content">
