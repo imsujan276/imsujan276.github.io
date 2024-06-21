@@ -18,7 +18,7 @@ filename: index.md
     <header id="site_header" class="header mobile-menu-hide">
       <div class="header-content clearfix">
         <div class="my-photo">
-          <img src="images/main.png" alt="image">
+          <img src="assets/images/main.png" alt="image">
         </div>
         <div class="site-title-block">
           <div class="site-title">Sujan Gainju</div>
@@ -62,7 +62,7 @@ filename: index.md
       <div class="mobile-logo-container">
         <div class="mobile-header-image">
           <a href="/">
-            <img src="images/main.png" alt="image">
+            <img src="assets/images/main.png" alt="image">
           </a>
         </div>
         <div class="mobile-site-title"><a href="#about-me">Sujan Gainju</a></div>
@@ -429,7 +429,7 @@ filename: index.md
                       <div class="portfolio-grid three-columns">
                         <figure class="item standard" data-groups='["category_all", "category_android"]'>
                           <div class="portfolio-item-img">
-                            <img src="images/portfolio/kalimati_price_nepal.png" alt="Kalimati Price Today"
+                            <img src="assets/images/portfolio/kalimati_price_nepal.png" alt="Kalimati Price Today"
                               title="Kalimati Price Today" />
                             <a href="https://play.google.com/store/apps/details?id=com.suga.kalimati_price"
                               target="_blank" title="Kalimati Price Today"></a>
@@ -440,7 +440,7 @@ filename: index.md
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_android"]'>
                           <div class="portfolio-item-img">
-                            <img src="images/portfolio/ipo_results_nepal.png" alt="IPO Results Nepal"
+                            <img src="assets/images/portfolio/ipo_results_nepal.png" alt="IPO Results Nepal"
                               title="IPO Results Nepal" />
                             <a href="https://play.google.com/store/apps/details?id=np.com.sujangainju.iporesultnepal"
                               target="_blank" title="IPO Results Nepal"></a>
@@ -451,7 +451,7 @@ filename: index.md
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_android"]'>
                           <div class="portfolio-item-img">
-                            <img src="images/portfolio/ntc_ncell_smart_cell_helplines.png"
+                            <img src="assets/images/portfolio/ntc_ncell_smart_cell_helplines.png"
                               alt="NTC/NCELL/SMART CELL Helplines" title="NTC/NCELL/SMART CELL Helplines" />
                             <a href="https://play.google.com/store/apps/details?id=np.com.sujangainju.iporesultnepal"
                               target="_blank" title="NTC/NCELL/SMART CELL Helplines"></a>
@@ -462,7 +462,7 @@ filename: index.md
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_android"]'>
                           <div class="portfolio-item-img">
-                            <img src="images/portfolio/pub.dev.png" alt="Sujan Gainju Pub.dev"
+                            <img src="assets/images/portfolio/pub.dev.png" alt="Sujan Gainju Pub.dev"
                               title="Flutter Packages" />
                             <a href="https://pub.dev/publishers/sujangainju.com.np/packages/" target="_blank"
                               title="Flutter Packages"></a>
@@ -473,7 +473,7 @@ filename: index.md
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_android"]'>
                           <div class="portfolio-item-img">
-                            <img src="images/portfolio/envato.png" alt="Envato Portfolio"
+                            <img src="assets/images/portfolio/envato.png" alt="Envato Portfolio"
                               title="Envato Portfolio" />
                             <a href="https://codecanyon.net/user/imsujan276/portfolio?direction=asc&order_by=sortable_at/" target="_blank"
                               title="Envato Portfolio"></a>
@@ -488,7 +488,7 @@ filename: index.md
                   </div>
                 </div>
               </div>
-            </div>
+            <!-- </div> -->
           </section>
           <!-- /Portfolio Subpage -->
           <!-- Contact Subpage -->
