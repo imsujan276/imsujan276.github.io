@@ -4,68 +4,6 @@ layout: template
 filename: index.md
 --- 
 
-<!-- <!DOCTYPE html> -->
-<html lang="en" class="no-js">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description"
-    content="Sujan Gainju is the Computer Engineer | Mobile application Developer | Freelancer. He is the IT enthusiast and have been working as a Senior flutter developer for more than 5 years">
-  <meta name="keywords"
-    content="sujan, sujan gainju, flutter developer, nepali flutter developer, flutter develoepr in nepal, freelancer, nepali freelancer, web developer, nepali web developer, nepali computer engineer, ionic developer in Nepal, JavaScipt developer Nepal, ionic developer, javascript developer, bitcoin api, Laravel Developer Nepal, Angular Developer Nepal, flutter developer in nepal, hybrid app developer">
-  <meta name="author" content="Sujan Gainju">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-  <title>Er. Sujan Gainju - Computer Engineer | Flutter Developer | Freelancer</title>
-  <link rel="shortcut icon" href="main.ico">
-
-  <meta name="theme-color" content="#db4938">
-  <link rel="manifest" crossorigin="use-credentials" href="manifest.json" />
-
-  <script>
-    if (location.protocol !== 'https:') {
-    location.replace(`https:${location.href.substring(location.protocol.length)}`);
-}
-    if ("serviceWorker" in navigator) {
-      window.addEventListener("load", function () {
-        navigator.serviceWorker
-          .register("/sw.js")
-          .then(res => console.log("service worker registered"))
-          .catch(err => console.log("service worker not registered", err))
-      })
-    }
-  </script>
-  <meta name="google-site-verification" content="4d2B-Z0NwFqyLajVUxebaKxkyXPQUnT3HdA-ErAOg9w" />
-  
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P4YWZT8ERH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-P4YWZT8ERH');
-</script>
-
-  <!-- ios support -->
-  <link rel="apple-touch-icon" href="images/icons/apple-icon-72x72-dunplab-manifest-18404.png" />
-  <link rel="apple-touch-icon" href="images/icons/favicon-96x96-dunplab-manifest-18404.png" />
-  <link rel="apple-touch-icon" href="images/icons/apple-icon-144x144-dunplab-manifest-18404.png" />
-  <link rel="apple-touch-icon" href="images/icons/apple-icon-152x152-dunplab-manifest-18404.png" />
-  <link rel="apple-touch-icon" href="images/icons/android-icon-192x192-dunplab-manifest-18404.png" />
-  <meta name="apple-mobile-web-app-status-bar" content="#db4938" />
-
-  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-  <link rel="stylesheet" href="css/animate.css" type="text/css">
-  <link rel="stylesheet" href="css/animations.css" type="text/css">
-  <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-  <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-  <link rel="stylesheet" href="css/main.css" type="text/css">
-
-  <script src="js/modernizr.custom.js"></script>
-</head>
-
-<body>
   <!-- Loading animation -->
   <div class="preloader">
     <div class="preloader-animation">
@@ -82,11 +20,9 @@ filename: index.md
         <div class="my-photo">
           <img src="images/main.png" alt="image">
         </div>
-
         <div class="site-title-block">
           <div class="site-title">Sujan Gainju</div>
         </div>
-
         <!-- Navigation -->
         <div class="site-nav">
           <!-- Main menu -->
@@ -107,7 +43,6 @@ filename: index.md
           <!-- /Main menu -->
         </div>
         <!-- Navigation -->
-
         <!-- Social Links -->
         <div class="social-links">
           <a href="https://www.linkedin.com/in/sujan-gainju-415147114" target="_blank"><i
@@ -116,14 +51,12 @@ filename: index.md
           <a href="https://play.google.com/store/apps/dev?id=6505221814874321222" target="_blank"><i class="fa fa-trophy"></i></a>
         </div>
         <!-- / Social Links -->
-        
         <!-- Copyrights -->
         <div class="copyrights">© <span class="todayDate"></span> All rights reserved.</div>
         <!-- / Copyrights -->
       </div>
     </header>
     <!-- /Header -->
-
     <!-- Mobile Header -->
     <div class="mobile-header mobile-visible">
       <div class="mobile-logo-container">
@@ -134,37 +67,33 @@ filename: index.md
         </div>
         <div class="mobile-site-title"><a href="#about-me">Sujan Gainju</a></div>
       </div>
-
       <a class="menu-toggle mobile-visible">
         <i class="fa fa-bars"></i>
       </a>
     </div>
     <!-- /Mobile Header -->
-
     <!-- Arrows Nav -->
     <div class="lmpixels-arrows-nav">
       <div class="lmpixels-arrow-left"><i class="lnr lnr-chevron-left"></i></div>
       <div class="lmpixels-arrow-right"><i class="lnr lnr-chevron-right"></i></div>
     </div>
     <!-- /Arrows Nav -->
-
     <!-- Main Content -->
     <div id="main" class="site-main">
       <!-- Page changer wrapper -->
       <div class="pt-wrapper">
         <!-- Subpages -->
         <div class="subpages">
-
           <!-- Home Subpage -->
           <section class="pt-page" data-id="about-me">
             <div class="section-inner start-page-full-width">
               <div class="start-page-full-width">
                 <div class="row">
-<!--                   <div class="col-sm-12 col-md-6 col-lg-6">
+                  <div class="col-sm-12 col-md-6 col-lg-6">
                     <div class="inner-content">
                       <div class="fill-block"></div>
                     </div>
-                  </div> -->
+                  </div>
                   <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="inner-content">
                       <div class="hp-text-block">
@@ -181,7 +110,6 @@ filename: index.md
                           </div>
                         </div>
                         <!-- /Text rotation / Subtitle -->
-
                         <h2 class="hp-main-title">Sujan Gainju</h2>
                         <p>Hi, my name is <strong>Er. Sujan Gainju</strong>. I'm currently living in Bhaktapur, Nepal. I
                           have
@@ -200,7 +128,6 @@ filename: index.md
                 </div>
               </div>
             </div>
-
             <div class="section-inner custom-page-content">
               <div class="page-content">
                 <!-- Services Block Title -->
@@ -231,7 +158,6 @@ filename: index.md
                           </div>
                         </div>
                         <!-- /Service Item 1 -->
-
                         <!-- Service Item 2 -->
                         <div class="info-block-w-icon">
                           <div class="ci-icon">
@@ -247,7 +173,6 @@ filename: index.md
                       </div>
                     </div>
                   </div>
-
                   <div class="col-xs-12 col-sm-6">
                     <div class="col-inner">
                       <div class="info-list-w-icon">
@@ -264,7 +189,6 @@ filename: index.md
                           </div>
                         </div>
                         <!-- Service Item 3 -->
-
                         <!-- Service Item 4 -->
                         <div class="info-block-w-icon">
                           <div class="ci-icon">
@@ -287,7 +211,6 @@ filename: index.md
             </div>
           </section>
           <!-- End of Home Subpage -->
-
          <!-- Resume Subpage -->
          <section class="pt-page" data-id="resume">
           <div class="section-inner custom-page-content">
@@ -295,7 +218,6 @@ filename: index.md
               <h2 class="section-title">Resume</h2>
               <h5 class="section-description">5+ Years of Experience</h5>
             </div>
-
             <div class="section-content">
               <!-- <div class="row"> -->
                 <div class="offset-1 col-10">
@@ -316,7 +238,6 @@ filename: index.md
                         </div>
                       </div>
                     </div>
-
                     <div class="block-title">
                       <h3>Experience<span></span></h3>
                     </div>
@@ -344,7 +265,6 @@ filename: index.md
                           </ul>
                         </div>
                       </div>
-
                       <div class="timeline-item clearfix">
                         <div class="left-part">
                           <h5 class="item-period">02/2025 – Present</h5>
@@ -361,7 +281,6 @@ filename: index.md
                           </ul>
                         </div>
                       </div>
-
                       <div class="timeline-item clearfix">
                         <div class="left-part">
                           <h5 class="item-period">12/2021 – 08/2022</h5>
@@ -378,18 +297,14 @@ filename: index.md
                           </ul>
                         </div>
                       </div>
-
                     </div>
                   </div>
                 </div>
-
                 <div class="offset-1 col-10">
                   <div class="col-inner">
-
                     <div class="block-title">
                       <h3>Personal Skills<span></span></h3>
                     </div>
-
                     <div class="skills-info skills-second-style">
                       <!-- Skill 1 -->
                       <div class="clearfix">
@@ -399,7 +314,6 @@ filename: index.md
                         </div>
                       </div>
                       <!-- /Skill 1 -->
-
                       <!-- Skill 2 -->
                       <div class="clearfix">
                         <h4>Ambitious</h4>
@@ -408,7 +322,6 @@ filename: index.md
                         </div>
                       </div>
                       <!-- /Skill 2 -->
-
                       <!-- Skill 3 -->
                       <div class="clearfix">
                         <h4>Responsible</h4>
@@ -417,7 +330,6 @@ filename: index.md
                         </div>
                       </div>
                       <!-- /Skill 3 -->
-
                       <!-- Skill 4 -->
                       <div class="clearfix">
                         <h4>Self-Starter</h4>
@@ -426,7 +338,6 @@ filename: index.md
                         </div>
                       </div>
                       <!-- /Skill 4 -->
-
                       <!-- Skill 5 -->
                       <div class="clearfix">
                         <h4>Assertive</h4>
@@ -435,7 +346,6 @@ filename: index.md
                         </div>
                       </div>
                       <!-- /Skill 5 -->
-
                       <!-- Skill 6 -->
                       <div class="clearfix">
                         <h4>Accountable</h4>
@@ -445,12 +355,9 @@ filename: index.md
                       </div>
                       <!-- /Skill 6 -->
                     </div>
-
                     <div class="block-title ts-10">
                       <h3>Coding Skills<span></span></h3>
                     </div>
-
-
                     <div class="skills-info skills-second-style">
                       <!-- Skill 5 -->
                       <div class="clearfix">
@@ -460,7 +367,6 @@ filename: index.md
                         </div>
                       </div>
                       <!-- /Skill 5 -->
-
                       <!-- Skill 6 -->
                       <div class="clearfix">
                         <h4>Firebse</h4>
@@ -469,7 +375,6 @@ filename: index.md
                         </div>
                       </div>
                       <!-- /Skill 6 -->
-
                       <!-- Skill 7 -->
                       <div class="clearfix">
                         <h4>SQL</h4>
@@ -489,8 +394,6 @@ filename: index.md
           </div>
         </section>
         <!-- End of Resume Subpage -->
-
-
           <!-- Portfolio Subpage -->
           <section class="pt-page" data-id="portfolio">
             <div class="section-inner custom-page-content">
@@ -507,7 +410,6 @@ filename: index.md
                   <div class="col-xs-12 col-sm-12">
                     <!-- Portfolio Content -->
                     <div class="portfolio-content">
-  
                         <ul class="portfolio-filters">
                           <li class="active">
                             <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
@@ -525,7 +427,6 @@ filename: index.md
                       </div>
                       <!-- Portfolio Grid -->
                       <div class="portfolio-grid three-columns">
-
                         <figure class="item standard" data-groups='["category_all", "category_android"]'>
                           <div class="portfolio-item-img">
                             <img src="images/portfolio/kalimati_price_nepal.png" alt="Kalimati Price Today"
@@ -537,7 +438,6 @@ filename: index.md
                           <h4 class="name">Kalimati Price Today</h4>
                           <span class="category">Android</span>
                         </figure>
-
                         <figure class="item standard" data-groups='["category_all", "category_android"]'>
                           <div class="portfolio-item-img">
                             <img src="images/portfolio/ipo_results_nepal.png" alt="IPO Results Nepal"
@@ -549,7 +449,6 @@ filename: index.md
                           <h4 class="name">IPO Results Nepal</h4>
                           <span class="category">Android</span>
                         </figure>
-
                         <figure class="item standard" data-groups='["category_all", "category_android"]'>
                           <div class="portfolio-item-img">
                             <img src="images/portfolio/ntc_ncell_smart_cell_helplines.png"
@@ -561,7 +460,6 @@ filename: index.md
                           <h4 class="name">NTC/NCELL/SMART CELL Helplines</h4>
                           <span class="category">Android</span>
                         </figure>
-
                         <figure class="item standard" data-groups='["category_all", "category_android"]'>
                           <div class="portfolio-item-img">
                             <img src="images/portfolio/pub.dev.png" alt="Sujan Gainju Pub.dev"
@@ -573,7 +471,6 @@ filename: index.md
                           <h4 class="name">Flutter Packages</h4>
                           <span class="category">Flutter, pub.dev</span>
                         </figure>
-
                         <figure class="item standard" data-groups='["category_all", "category_android"]'>
                           <div class="portfolio-item-img">
                             <img src="images/portfolio/envato.png" alt="Envato Portfolio"
@@ -585,7 +482,6 @@ filename: index.md
                           <h4 class="name">Envato Portfolio</h4>
                           <span class="category">Flutter, Marketplace</span>
                         </figure>
-
                       </div>
                     </div>
                     <!-- /Portfolio Content -->
@@ -595,7 +491,6 @@ filename: index.md
             </div>
           </section>
           <!-- /Portfolio Subpage -->
-
           <!-- Contact Subpage -->
           <section class="pt-page" data-id="contact">
             <div class="section-inner custom-page-content">
@@ -603,9 +498,7 @@ filename: index.md
                 <h2 class="section-title">Contact</h2>
                 <h5 class="section-description">Get in Touch</h5>
               </div>
-
               <div class="section-content">
-
                 <div class="row">
 <!--                   <div class="col-xs-12 col-sm-3">
                     <div class="col-inner bs-30">
@@ -617,7 +510,6 @@ filename: index.md
                       </div>
                     </div>
                   </div> -->
-
                   <div class="col-xs-12 col-sm-4">
                     <div class="col-inner bs-30">
                       <div class="lm-info-block gray-default">
@@ -628,7 +520,6 @@ filename: index.md
                       </div>
                     </div>
                   </div>
-
                   <div class="col-xs-12 col-sm-4">
                     <div class="col-inner bs-30">
                       <div class="lm-info-block gray-default">
@@ -639,7 +530,6 @@ filename: index.md
                       </div>
                     </div>
                   </div>
-
                   <div class="col-xs-12 col-sm-4">
                     <div class="col-inner bs-30">
                       <div class="lm-info-block gray-default">
@@ -652,7 +542,6 @@ filename: index.md
                   </div>
                 </div>
               </div>
-
               <div class="row">
                 <div class=" col-xs-12 col-sm-8 offset-sm-1 offset-sm-2">
                   <div class="col-inner ts-20">
@@ -666,31 +555,9 @@ filename: index.md
             </div>
           </section>
           <!-- End Contact Subpage -->
-
         </div>
       </div>
       <!-- /Page changer wrapper -->
     </div>
     <!-- /Main Content -->
   </div>
-
-  <script src="js/jquery-2.1.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/pages-switcher.js"></script>
-  <script src="js/imagesloaded.pkgd.min.js"></script>
-  <script src="js/validator.js"></script>
-  <script src="js/jquery.shuffle.min.js"></script>
-  <script src="js/masonry.pkgd.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/main.js"></script>
-
-  <script>
-    $(function () {
-      var date = new Date()
-      $(".todayDate").html(date.getFullYear()) // you'll have to search how to format the date
-    });
-  </script>
-</body>
-
-</html>
