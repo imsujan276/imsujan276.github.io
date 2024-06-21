@@ -1,3 +1,9 @@
 ---
 ---
 @import "{{ site.theme }}";
+
+.divider{
+    border-top: 0.75px solid #e5dcdc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
