@@ -432,7 +432,7 @@ filename: index.md
               </div>
               <div class="section-content">
                 <div class="row">
-                  <div class="col-xs-12 col-sm-3">
+                  <!-- <div class="col-xs-12 col-sm-3">
                     <div class="col-inner bs-30">
                       <div class="lm-info-block gray-default">
                         <i class="lnr lnr-phone-handset"></i>
@@ -441,7 +441,7 @@ filename: index.md
                         <span class="lm-info-block-text"></span>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <div class="col-xs-12 col-sm-4">
                     <div class="col-inner bs-30">
                       <div class="lm-info-block gray-default">
