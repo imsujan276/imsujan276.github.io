@@ -4,74 +4,8 @@ layout: template
 filename: index.md
 --- 
 
-  <!-- Loading animation -->
-  <div class="preloader">
-    <div class="preloader-animation">
-      <div class="preloader-spinner">
-      </div>
-    </div>
-  </div>
-  <!-- /Loading animation -->
-
   <div id="page" class="page">
-    <!-- Header -->
-    <header id="site_header" class="header mobile-menu-hide">
-      <div class="header-content clearfix">
-        <div class="my-photo">
-          <img src="assets/images/main.png" alt="image">
-        </div>
-        <div class="site-title-block">
-          <div class="site-title">Sujan Gainju</div>
-        </div>
-        <!-- Navigation -->
-        <div class="site-nav">
-          <!-- Main menu -->
-          <ul id="nav" class="site-main-menu">
-            <li>
-              <a class="pt-trigger" href="#about-me">About Me</a>
-            </li>
-            <li>
-              <a class="pt-trigger" href="#resume">Resume</a>
-            </li>
-            <li>
-              <a class="pt-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li>
-              <a class="pt-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
-          <!-- /Main menu -->
-        </div>
-        <!-- Navigation -->
-        <!-- Social Links -->
-        <div class="social-links">
-          <a href="https://www.linkedin.com/in/sujan-gainju-415147114" target="_blank"><i
-              class="fab fa-linkedin"></i></a>
-          <a href="https://github.com/imsujan276" target="_blank"><i class="fab fa-github-square"></i></a>
-          <a href="https://play.google.com/store/apps/dev?id=6505221814874321222" target="_blank"><i class="fa fa-trophy"></i></a>
-        </div>
-        <!-- / Social Links -->
-        <!-- Copyrights -->
-        <div class="copyrights">© <span class="todayDate"></span> All rights reserved.</div>
-        <!-- / Copyrights -->
-      </div>
-    </header>
     <!-- /Header -->
-    <!-- Mobile Header -->
-    <div class="mobile-header mobile-visible">
-      <div class="mobile-logo-container">
-        <div class="mobile-header-image">
-          <a href="/">
-            <img src="assets/images/main.png" alt="image">
-          </a>
-        </div>
-        <div class="mobile-site-title"><a href="#about-me">Sujan Gainju</a></div>
-      </div>
-      <a class="menu-toggle mobile-visible">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-    <!-- /Mobile Header -->
     <!-- Arrows Nav -->
     <div class="lmpixels-arrows-nav">
       <div class="lmpixels-arrow-left"><i class="lnr lnr-chevron-left"></i></div>
@@ -110,18 +44,13 @@ filename: index.md
                           </div>
                         </div>
                         <!-- /Text rotation / Subtitle -->
-                        <h2 class="hp-main-title">Sujan Gainju</h2>
+                        <h2 class="hp-main-title"><a href="#">Sujan Gainju</a></h2>
                         <p>Hi, my name is <strong>Er. Sujan Gainju</strong>. I'm currently living in Bhaktapur, Nepal. I
                           have
                           a degree in Computer Engineer; In my free time, I like to study new programming
                           languages, do some programming, and play video games.</p>
                         <p>I have several years of experience developing simple to complex multi-user mobile applications using Flutter. I think of the
                           user experience when I try to craft something for my clients. Making the experience awesome.</p>
-                        <div class="hp-buttons">
-                          <div class="col-6">
-                            <a href="#contact" class="btn btn-primary"> Contact Me</a>
-                          </div>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -231,25 +160,24 @@ filename: index.md
                           <h5 class="item-period">2012- 2017</h5>
                           <span class="item-company">Khwopa Engineering College</span>
                         </div>
-                        <div class="divider"></div>
                         <div class="right-part">
                           <h4 class="item-title">B.E Computer Engineering</h4>
                           <p>Bachelor's degree in the Khwopa Engineering College major in compueter application</p>
                         </div>
                       </div>
                     </div>
+                    <div class="divider"></div>
                     <div class="block-title">
                       <h3>Experience<span></span></h3>
                     </div>
                     <div class="timeline timeline-second-style clearfix">
                       <div class="timeline-item clearfix">
                         <div class="left-part">
-                          <h5 class="item-period">Jan 2018 - Present</h5>
                           <span class="item-company">NerdPlatoon Pvt. Ltd.</span>
+                          <h5 class="item-period">Jan 2018 - Present</h5>
                         </div>
-                        <div class="divider"></div>
                         <div class="right-part">
-                          <h4 class="item-title">Mobile Application Engineer</h4>
+                          <h5 class="item-title">Mobile Application Engineer</h5>
                           <ul type="A">
                             <li type="circle">Responsible to design and develop the hybrid mobile application for the vehicle dealers and it customers.</li>
                             <li type="circle">Resposible for implementing the UI/UX and deplying it to the app stores and play stores.</li>
@@ -265,12 +193,12 @@ filename: index.md
                           </ul>
                         </div>
                       </div>
+                    <div class="divider"></div>
                       <div class="timeline-item clearfix">
                         <div class="left-part">
                           <h5 class="item-period">02/2025 – Present</h5>
                           <span class="item-company">Phluid World</span>
                         </div>
-                        <div class="divider"></div>
                         <div class="right-part">
                           <h4 class="item-title">Consultant (Flutter)</h4>
                           <ul type="A">
@@ -281,12 +209,12 @@ filename: index.md
                           </ul>
                         </div>
                       </div>
+                    <div class="divider"></div>
                       <div class="timeline-item clearfix">
                         <div class="left-part">
                           <h5 class="item-period">12/2021 – 08/2022</h5>
                           <span class="item-company">Frntlne</span>
                         </div>
-                        <div class="divider"></div>
                         <div class="right-part">
                           <h4 class="item-title">Flutter Developer</h4>
                           <ul type="A">
@@ -302,89 +230,93 @@ filename: index.md
                 </div>
                 <div class="offset-1 col-10">
                   <div class="col-inner">
-                    <div class="block-title">
-                      <h3>Personal Skills<span></span></h3>
-                    </div>
-                    <div class="skills-info skills-second-style">
-                      <!-- Skill 1 -->
-                      <div class="clearfix">
-                        <h4>Flexibility</h4>
-                        <div class="skill-value">
-                          <h4>Communication</h4>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="block-title">
+                          <h3>Personal Skills<span></span></h3>
+                        </div>
+                        <div class="skills-info skills-second-style">
+                          <!-- Skill 1 -->
+                          <div class="clearfix">
+                            <strong>Flexibility</strong>
+                            <div class="skill-value">
+                              <strong>Communication</strong>
+                            </div>
+                          </div>
+                          <!-- /Skill 1 -->
+                          <!-- Skill 2 -->
+                          <div class="clearfix">
+                            <strong>Ambitious</strong>
+                            <div class="skill-value">
+                              <strong>Teamwork</strong>
+                            </div>
+                          </div>
+                          <!-- /Skill 2 -->
+                          <!-- Skill 3 -->
+                          <div class="clearfix">
+                            <strong>Responsible</strong>
+                            <div class="skill-value">
+                              <strong>Adaptability</strong>
+                            </div>
+                          </div>
+                          <!-- /Skill 3 -->
+                          <!-- Skill 4 -->
+                          <div class="clearfix">
+                            <strong>Self-Starter</strong>
+                            <div class="skill-value">
+                              <strong>Problem-Solving</strong>
+                            </div>
+                          </div>
+                          <!-- /Skill 4 -->
+                          <!-- Skill 5 -->
+                          <div class="clearfix">
+                            <strong>Assertive</strong>
+                            <div class="skill-value">
+                              <strong>Organization</strong>
+                            </div>
+                          </div>
+                          <!-- /Skill 5 -->
+                          <!-- Skill 6 -->
+                          <div class="clearfix">
+                            <strong>Accountable</strong>
+                            <div class="skill-value">
+                              <strong>Time Management</strong>
+                            </div>
+                          </div>
+                          <!-- /Skill 6 -->
                         </div>
                       </div>
-                      <!-- /Skill 1 -->
-                      <!-- Skill 2 -->
-                      <div class="clearfix">
-                        <h4>Ambitious</h4>
-                        <div class="skill-value">
-                          <h4>Teamwork</h4>
-                        </div>
+                      <div class="block-title ts-10">
+                        <h3>Coding Skills<span></span></h3>
                       </div>
-                      <!-- /Skill 2 -->
-                      <!-- Skill 3 -->
-                      <div class="clearfix">
-                        <h4>Responsible</h4>
-                        <div class="skill-value">
-                          <h4>Adaptability</h4>
+                      <div class="skills-info skills-second-style">
+                        <!-- Skill 5 -->
+                        <div class="clearfix">
+                          <strong>Flutter</strong>
+                          <div class="skill-value">
+                            <strong>Dart</strong>
+                          </div>
                         </div>
-                      </div>
-                      <!-- /Skill 3 -->
-                      <!-- Skill 4 -->
-                      <div class="clearfix">
-                        <h4>Self-Starter</h4>
-                        <div class="skill-value">
-                          <h4>Problem-Solving</h4>
+                        <!-- /Skill 5 -->
+                        <!-- Skill 6 -->
+                        <div class="clearfix">
+                          <strong>Firebse</strong>
+                          <div class="skill-value">
+                            <strong>REST API</strong>
+                          </div>
                         </div>
-                      </div>
-                      <!-- /Skill 4 -->
-                      <!-- Skill 5 -->
-                      <div class="clearfix">
-                        <h4>Assertive</h4>
-                        <div class="skill-value">
-                          <h4>Organization</h4>
+                        <!-- /Skill 6 -->
+                        <!-- Skill 7 -->
+                        <div class="clearfix">
+                          <strong>SQL</strong>
+                          <div class="skill-value">
+                            <strong>Pyhton</strong>
+                          </div>
                         </div>
-                      </div>
-                      <!-- /Skill 5 -->
-                      <!-- Skill 6 -->
-                      <div class="clearfix">
-                        <h4>Accountable</h4>
-                        <div class="skill-value">
-                          <h4>Time Management</h4>
+                        <!-- /Skill 7 -->
+                        <div class="clearfix">
+                          <strong>Go</strong>
                         </div>
-                      </div>
-                      <!-- /Skill 6 -->
-                    </div>
-                    <div class="block-title ts-10">
-                      <h3>Coding Skills<span></span></h3>
-                    </div>
-                    <div class="skills-info skills-second-style">
-                      <!-- Skill 5 -->
-                      <div class="clearfix">
-                        <h4>Flutter</h4>
-                        <div class="skill-value">
-                          <h4>Dart</h4>
-                        </div>
-                      </div>
-                      <!-- /Skill 5 -->
-                      <!-- Skill 6 -->
-                      <div class="clearfix">
-                        <h4>Firebse</h4>
-                        <div class="skill-value">
-                          <h4>REST API</h4>
-                        </div>
-                      </div>
-                      <!-- /Skill 6 -->
-                      <!-- Skill 7 -->
-                      <div class="clearfix">
-                        <h4>SQL</h4>
-                        <div class="skill-value">
-                          <h4>Pyhton</h4>
-                        </div>
-                      </div>
-                      <!-- /Skill 7 -->
-                      <div class="clearfix">
-                        <h4>Go</h4>
                       </div>
                     </div>
                   </div>
@@ -408,23 +340,6 @@ filename: index.md
               <div class="section-content">
                 <div class="row">
                   <div class="col-xs-12 col-sm-12">
-                    <!-- Portfolio Content -->
-                    <div class="portfolio-content">
-                        <ul class="portfolio-filters">
-                          <li class="active">
-                            <a class="filter btn btn-sm btn-link" data-group="category_all">All</a>
-                          </li>
-                          <li>
-                            <a class="filter btn btn-sm btn-link" data-group="category_android">Android</a>
-                          </li>
-                          <li>
-                            <a class="filter btn btn-sm btn-link" data-group="category_ios">iOS</a>
-                          </li>
-                          <li>
-                            <a class="filter btn btn-sm btn-link" data-group="category_web">Web</a>
-                          </li>
-                        </ul>
-                      </div>
                       <!-- Portfolio Grid -->
                       <div class="portfolio-grid three-columns">
                         <figure class="item standard" data-groups='["category_all", "category_android"]'>
@@ -500,7 +415,7 @@ filename: index.md
               </div>
               <div class="section-content">
                 <div class="row">
-<!--                   <div class="col-xs-12 col-sm-3">
+                  <div class="col-xs-12 col-sm-3">
                     <div class="col-inner bs-30">
                       <div class="lm-info-block gray-default">
                         <i class="lnr lnr-phone-handset"></i>
@@ -509,7 +424,7 @@ filename: index.md
                         <span class="lm-info-block-text"></span>
                       </div>
                     </div>
-                  </div> -->
+                  </div>
                   <div class="col-xs-12 col-sm-4">
                     <div class="col-inner bs-30">
                       <div class="lm-info-block gray-default">
