@@ -3,17 +3,6 @@ title: Privacy Policy
 layout: template
 filename: privacy-policy.md
 --- 
-
-
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-
 <div class="container mt-5">
     <h1 class="text-center">Privacy Policy</h1>
     <br/>
@@ -66,5 +55,3 @@ filename: privacy-policy.md
     <p>By using <a href="http://sujangainju.com.np">sujangainju.com.np</a> or the mobile applications available in the Google Play Store under the account <a href="https://play.google.com/store/apps/dev?id=6505221814874321222" target="_blank">Sujan Gainju</a>, you acknowledge that you have read and understood this Privacy Policy and agree to the collection, use, and disclosure of your information as described herein.</p>
 </div>
 
-</body>
-</html>
