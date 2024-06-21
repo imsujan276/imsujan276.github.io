@@ -241,65 +241,8 @@ filename: index.md
                 <div class="divider"></div>
                 <div class="offset-1 col-10">
                   <div class="col-inner">
-                    <div class="row">
-                      <div class="col-6">
-                        <div class="block-title">
-                          <h3>Personal Skills<span></span></h3>
-                        </div>
-                        <div class="skills-info skills-second-style">
-                          <!-- Skill 1 -->
-                          <div class="clearfix">
-                            <strong>Flexibility</strong>
-                            <div class="skill-value">
-                              <strong>Communication</strong>
-                            </div>
-                          </div>
-                          <!-- /Skill 1 -->
-                          <!-- Skill 2 -->
-                          <div class="clearfix">
-                            <strong>Ambitious</strong>
-                            <div class="skill-value">
-                              <strong>Teamwork</strong>
-                            </div>
-                          </div>
-                          <!-- /Skill 2 -->
-                          <!-- Skill 3 -->
-                          <div class="clearfix">
-                            <strong>Responsible</strong>
-                            <div class="skill-value">
-                              <strong>Adaptability</strong>
-                            </div>
-                          </div>
-                          <!-- /Skill 3 -->
-                          <!-- Skill 4 -->
-                          <div class="clearfix">
-                            <strong>Self-Starter</strong>
-                            <div class="skill-value">
-                              <strong>Problem-Solving</strong>
-                            </div>
-                          </div>
-                          <!-- /Skill 4 -->
-                          <!-- Skill 5 -->
-                          <div class="clearfix">
-                            <strong>Assertive</strong>
-                            <div class="skill-value">
-                              <strong>Organization</strong>
-                            </div>
-                          </div>
-                          <!-- /Skill 5 -->
-                          <!-- Skill 6 -->
-                          <div class="clearfix">
-                            <strong>Accountable</strong>
-                            <div class="skill-value">
-                              <strong>Time Management</strong>
-                            </div>
-                          </div>
-                          <!-- /Skill 6 -->
-                        </div>
-                      </div>
-                    <div class="divider"></div>
                       <div class="block-title ts-10">
-                        <h3>Coding Skills<span></span></h3>
+                        <h3>Programming Skills<span></span></h3>
                       </div>
                       <div class="skills-info skills-second-style">
                         <!-- Skill 5 -->
@@ -329,8 +272,7 @@ filename: index.md
                         <div class="clearfix">
                           <strong>Go</strong>
                         </div>
-                      </div>
-                    </div>
+                      </div>å
                   </div>
                 </div>
               <!-- </div> -->
@@ -437,7 +379,7 @@ filename: index.md
                       <div class="lm-info-block gray-default">
                         <i class="lnr lnr-phone-handset"></i>
                         <h4><a href="tel:+9779849170030">(+977) 9849170030</a></h4>
-                        <span class="lm-info-block-value"></span>
+                        <span class="lm-info-block-value"></span>å
                         <span class="lm-info-block-text"></span>
                       </div>
                     </div>
