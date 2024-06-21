@@ -47,17 +47,18 @@ filename: index.md
                             <a href="https://www.linkedin.com/in/sujan-gainju-415147114" target="_blank" style="flex: 1; text-align: center;"><i class="fab fa-linkedin"></i></a>
                             <a href="https://github.com/imsujan276" target="_blank" style="flex: 1; text-align: center;"><i class="fab fa-github-square"></i></a>
                             <a href="https://play.google.com/store/apps/dev?id=6505221814874321222" target="_blank" style="flex: 1; text-align: center;"><i class="fa fa-trophy"></i></a>
+                            <a href="mailto:sujangainju01@gmail.com" target="_blank" style="flex: 1; text-align: center;"><i class="fa fa-envelope"></i></a>
                           </div>
                           </div>
                         </div>
                         <br/>
                         <!-- <h2 class="hp-main-title"><a href="#">Sujan Gainju</a></h2> -->
-                        <p>Hi, my name is <strong>Er. Sujan Gainju</strong>. I'm currently living in Bhaktapur, Nepal. I
-                          have
-                          a degree in Computer Engineer; In my free time, I like to study new programming
-                          languages, do some programming, and play video games.</p>
-                        <p>I have several years of experience developing simple to complex multi-user mobile applications using Flutter. I think of the
-                          user experience when I try to craft something for my clients. Making the experience awesome.</p>
+                        <p>
+                          I am <strong>Sujan Gainju</strong>, a passionate mobile app developer specializing in Flutter, based in Bhaktapur, Nepal. With a solid foundation in computer science and a deep commitment to mastering mobile technologies, I craft sleek, responsive, and high-performance mobile applications that stand out in today’s competitive app market. My journey in app development started from a curiosity to solve real-world problems through technology, leading me to embrace Flutter for its efficiency and versatility. This powerful framework allows me to create cross-platform applications that provide a seamless user experience across both Android and iOS devices.
+                        </p>
+                        <p>
+                          In my development process, I focus on delivering robust and scalable solutions that align with client needs and exceed user expectations. My portfolio spans a diverse range of projects, from consumer-facing apps to complex business solutions, all marked by a commitment to quality and innovation. I thrive on tackling challenging problems and continuously updating my skills to stay ahead of industry trends. By blending technical acumen with a user-centered design approach, I aim to build applications that not only function flawlessly but also engage and delight users. Whether you’re looking for a full-fledged app or need to enhance an existing one, my expertise in Flutter development ensures that your vision is realized with precision and excellence.
+                        </p>
                       </div>
                     </div>
                   </div>
