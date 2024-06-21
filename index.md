@@ -344,57 +344,65 @@ filename: index.md
                       <div class="portfolio-grid three-columns">
                         <figure class="item standard" data-groups='["category_all", "category_android"]'>
                           <div class="portfolio-item-img">
+                            <a href="https://play.google.com/store/apps/details?id=com.suga.kalimati_price"
+                              target="_blank">
                             <img src="assets/images/portfolio/kalimati_price_nepal.png" alt="Kalimati Price Today"
                               title="Kalimati Price Today" />
-                            <a href="https://play.google.com/store/apps/details?id=com.suga.kalimati_price"
-                              target="_blank" title="Kalimati Price Today"></a>
+                            </a>
                           </div>
                           <i class="fa fa-file-alt"></i>
-                          <h4 class="name">Kalimati Price Today</h4>
+                          <h4 class="name"><a href="https://play.google.com/store/apps/details?id=com.suga.kalimati_price"
+                              target="_blank">Kalimati Price Today</a></h4>
                           <span class="category">Android</span>
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_android"]'>
                           <div class="portfolio-item-img">
+                            <a href="https://play.google.com/store/apps/details?id=np.com.sujangainju.iporesultnepal"
+                              target="_blank">
                             <img src="assets/images/portfolio/ipo_results_nepal.png" alt="IPO Results Nepal"
                               title="IPO Results Nepal" />
-                            <a href="https://play.google.com/store/apps/details?id=np.com.sujangainju.iporesultnepal"
-                              target="_blank" title="IPO Results Nepal"></a>
+                            </a>
                           </div>
                           <i class="fa fa-file-alt"></i>
-                          <h4 class="name">IPO Results Nepal</h4>
+                          <h4 class="name"> <a href="https://play.google.com/store/apps/details?id=np.com.sujangainju.iporesultnepal"
+                              target="_blank">IPO Results Nepal</a></h4>
                           <span class="category">Android</span>
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_android"]'>
                           <div class="portfolio-item-img">
+                            <a href="https://play.google.com/store/apps/details?id=np.com.sujangainju.iporesultnepal"
+                              target="_blank">
                             <img src="assets/images/portfolio/ntc_ncell_smart_cell_helplines.png"
                               alt="NTC/NCELL/SMART CELL Helplines" title="NTC/NCELL/SMART CELL Helplines" />
-                            <a href="https://play.google.com/store/apps/details?id=np.com.sujangainju.iporesultnepal"
-                              target="_blank" title="NTC/NCELL/SMART CELL Helplines"></a>
+                              </a>
                           </div>
                           <i class="fa fa-file-alt"></i>
-                          <h4 class="name">NTC/NCELL/SMART CELL Helplines</h4>
+                          <h4 class="name"><a href="https://play.google.com/store/apps/details?id=np.com.sujangainju.iporesultnepal"
+                              target="_blank">NTC/NCELL/SMART CELL Helplines</a></h4>
                           <span class="category">Android</span>
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_android"]'>
                           <div class="portfolio-item-img">
+                            <a href="https://pub.dev/publishers/sujangainju.com.np/packages/" target="_blank">
                             <img src="assets/images/portfolio/pub.dev.png" alt="Sujan Gainju Pub.dev"
                               title="Flutter Packages" />
-                            <a href="https://pub.dev/publishers/sujangainju.com.np/packages/" target="_blank"
-                              title="Flutter Packages"></a>
+                            </a>
                           </div>
                           <i class="fa fa-file-alt"></i>
-                          <h4 class="name">Flutter Packages</h4>
+                          <h4 class="name"><a href="https://pub.dev/publishers/sujangainju.com.np/packages/" target="_blank"
+                              >Flutter Packages</a></h4>
                           <span class="category">Flutter, pub.dev</span>
                         </figure>
                         <figure class="item standard" data-groups='["category_all", "category_android"]'>
                           <div class="portfolio-item-img">
+                            <a href="https://codecanyon.net/user/imsujan276/portfolio?direction=asc&order_by=sortable_at/" target="_blank"
+                              title="Envato Portfolio">
                             <img src="assets/images/portfolio/envato.png" alt="Envato Portfolio"
                               title="Envato Portfolio" />
-                            <a href="https://codecanyon.net/user/imsujan276/portfolio?direction=asc&order_by=sortable_at/" target="_blank"
-                              title="Envato Portfolio"></a>
+                              </a>
                           </div>
                           <i class="fa fa-file-alt"></i>
-                          <h4 class="name">Envato Portfolio</h4>
+                          <h4 class="name"><a href="https://codecanyon.net/user/imsujan276/portfolio?direction=asc&order_by=sortable_at/" target="_blank">Envato Portfolio</a></h4>
                           <span class="category">Flutter, Marketplace</span>
                         </figure>
                       </div>
