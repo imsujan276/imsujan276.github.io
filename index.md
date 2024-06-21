@@ -40,7 +40,15 @@ filename: index.md
                               <li> Freelancer</li>
                             </ul>
                           </div>
-                          <div><img src="/assets/images/main.png" style="height: 200px;"></div>
+                          <div>
+                          <img src="/assets/images/main.png" style="height: 200px;">
+                          <br/>
+                          <div style="display: flex; justify-content: space-between; max-width: 200px;">
+                            <a href="https://www.linkedin.com/in/sujan-gainju-415147114" target="_blank" style="flex: 1; text-align: center;"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/imsujan276" target="_blank" style="flex: 1; text-align: center;"><i class="fab fa-github-square"></i></a>
+                            <a href="https://play.google.com/store/apps/dev?id=6505221814874321222" target="_blank" style="flex: 1; text-align: center;"><i class="fa fa-trophy"></i></a>
+                          </div>
+                          </div>
                         </div>
                         <br/>
                         <!-- <h2 class="hp-main-title"><a href="#">Sujan Gainju</a></h2> -->
