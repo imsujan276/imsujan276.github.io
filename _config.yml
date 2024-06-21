@@ -1,5 +1,4 @@
-# remote_theme: pages-themes/cayman@v0.2.0
-remote_theme: pages-themes/tactile@v0.2.0
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
@@ -7,4 +6,4 @@ plugins:
 title: Er. Sujan Gainju - Flutter Developer | Computer Engineer | Freelancer
 description: Sujan Gainju is the Flutter Developer | Computer Engineer | Freelancer. He is the IT enthusiast and have been working as a Senior flutter developer for more than 5 years
 
-# google_analytics: [Your Google Analytics tracking ID]
+google_analytics: G-P4YWZT8ERH
