@@ -17,9 +17,9 @@
   <link rel="manifest" crossorigin="use-credentials" href="manifest.json" />
 
   <script>
-    if (location.protocol !== 'https:') {
-    location.replace(`https:${location.href.substring(location.protocol.length)}`);
-}
+    // if (location.protocol !== 'https:') {
+    //   location.replace(`https:${location.href.substring(location.protocol.length)}`);
+    // }
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", function () {
         navigator.serviceWorker
@@ -69,13 +69,13 @@
   </div>
   <!-- /Loading animation -->
 
-  <div id="page" class="page">
+  <div id="page" class="page" style="display: none;">
     <!-- Header -->
     <header id="site_header" class="header mobile-menu-hide">
       <div class="header-content clearfix">
-<!--         <div class="my-photo">
+        <div class="my-photo">
           <img src="images/main.png" alt="image">
-        </div> -->
+        </div>
 
         <div class="site-title-block">
           <div class="site-title">Sujan Gainju</div>
@@ -96,6 +96,9 @@
             </li>
             <li>
               <a class="pt-trigger" href="#contact">Contact</a>
+            </li>
+            <li>
+              <a class="pt-trigger" href="#" onclick="window.open('https://sujangainju.com.np?page=privacy-policy', '_blank')" target="_blank">Privacy Policy</a>
             </li>
           </ul>
           <!-- /Main menu -->
@@ -122,9 +125,9 @@
     <div class="mobile-header mobile-visible">
       <div class="mobile-logo-container">
         <div class="mobile-header-image">
-<!--           <a href="#">
+          <a href="#">
             <img src="images/main.png" alt="image">
-          </a> -->
+          </a>
         </div>
         <div class="mobile-site-title"><a href="#about-me">Sujan Gainju</a></div>
       </div>
@@ -154,7 +157,7 @@
             <div class="section-inner start-page-full-width">
               <div class="start-page-full-width">
                 <div class="row">
-<!--                   <div class="col-sm-12 col-md-6 col-lg-6">
+                  <!-- <div class="col-sm-12 col-md-6 col-lg-6">
                     <div class="inner-content">
                       <div class="fill-block"></div>
                     </div>
@@ -326,44 +329,54 @@
                           <div class="divider"></div>
                           <div class="right-part">
                             <h4 class="item-title">Mobile Application Engineer</h4>
-                            <p>Responsible for designing and developing the hybrid mobile application for the vehicle dealers
-                              and its customers. I am responsible for implementing the UI/UX and deploying it to the app
-                              stores and play stores.
-                            </p>
-                            <p>Achievements: </p>
                             <ul type="A">
-                              <li type="circle">Learned and implemented a hybrid app framework to build complex mobile
-                                application.</li>
-                              <li type="circle">Leraned to use Git for code management.</li>
-                              <li type="circle">learned to use real-time application using FireBase.</li>
-                              <li type="circle">Learned to implement Google Maps and routing.</li>
-                              <li type="circle">Learned to integrate Payment gateway.</li>
-                              <li type="circle">Learned to manage different APIs in the same application.</li>
-                              <li type="circle">Learned to manage parent and child applications and communicate between
-                                them.</li>
-                              <li type="circle">Learned Scrum Methodology Agile.</li>
+                              <li type="circle">Responsible to design and develop the hybrid mobile application for the vehicle dealers and it customers.</li>
+                              <li type="circle">Resposible for implementing the UI/UX and deplying it to the app stores and play stores.</li>
+                              <li type="circle">Developed Flutter plugins for the project.</li>
+                              <li type="circle">Handled multiple projects at the same time.</li>
+                              <li type="circle">Hands on experience with Firebase</li>
+                              <li type="circle">Push Notification implementation.</li>
+                              <li type="circle">In-App Purchase implementation.</li>
+                              <li type="circle">Google map integration.</li>
+                              <li type="circle">Custom and complex UI implementation.</li>
+                              <li type="circle">Google Admob integration.</li>
+                              <li type="circle">DeepLinking implementation.</li>
                             </ul>
                           </div>
                         </div>
 
                         <div class="timeline-item clearfix">
                           <div class="left-part">
-                            <h5 class="item-period">Oct 2017 - Dec 2017</h5>
-                            <span class="item-company">Allure Pvt. Ltd.</span>
+                            <h5 class="item-period">02/2025 – Present</h5>
+                            <span class="item-company">Phluid World</span>
                           </div>
-                          <div class="divider"></div>
                           <div class="right-part">
-                            <h4 class="item-title">Web Developer</h4>
-                            <p>Designed, programmed, and implemented the web application in WordPress with a fully dynamic
-                              admin.</p>
-                            <p>Achievements: </p>
+                            <h4 class="item-title">Consultant (Flutter)</h4>
                             <ul type="A">
-                              <li type="circle">Learned new programming languages; PHP, WordPress and Javascript</li>
-                              <li type="circle">Developed WordPress website.</li>
-                              <li type="circle">Learned to customize Woocommerce and Prestashop.</li>
+                              <li type="circle">Consulted the devlopers on the project and helped them to implement the logic.</li>
+                              <li type="circle">Involved in bug fixing</li>
+                              <li type="circle">Communication with QA team to resolve the issues.</li>
+                              <li type="circle">Provided the solution for the issues the developers are facing.</li>
                             </ul>
                           </div>
                         </div>
+
+                        <div class="timeline-item clearfix">
+                          <div class="left-part">
+                            <h5 class="item-period">12/2021 – 08/2022</h5>
+                            <span class="item-company">Frntlne</span>
+                          </div>
+                          <div class="right-part">
+                            <h4 class="item-title">Flutter Developer</h4>
+                            <ul type="A">
+                              <li type="circle">Actively involved in the project development.</li>
+                              <li type="circle">Involved in bug fixing</li>
+                              <li type="circle">UI/UX implementation</li>
+                              <li type="circle">Designed mockup for the project.</li>
+                            </ul>
+                          </div>
+                        </div>
+
                       </div>
                     </div>
                   </div>
@@ -548,17 +561,17 @@
                           <span class="category">Android</span>
                         </figure>
 
-                        <figure class="item standard" data-groups='["category_all", "category_web"]'>
+                        <figure class="item standard" data-groups='["category_all", "category_android"]'>
                           <div class="portfolio-item-img">
-                            <img src="images/portfolio/kritisha_construction.png" alt="Kritisha Construction"
-                              title="Kritisha Construction" />
-                            <a href="http://kritishaconstruction.com/" target="_blank"
-                              title="Kritisha Construction"></a>
+                            <a href="https://pub.dev/publishers/sujangainju.com.np/packages/" target="_blank">
+                            <img src="images/portfolio/pub.dev.png" alt="Sujan Gainju Pub.dev"
+                              title="Flutter Packages" />
+                            </a>
                           </div>
-
                           <i class="fa fa-file-alt"></i>
-                          <h4 class="name">Kritisha Construction</h4>
-                          <span class="category">WordPress</span>
+                          <h4 class="name"><a href="https://pub.dev/publishers/sujangainju.com.np/packages/" target="_blank"
+                              >Flutter Packages</a></h4>
+                          <span class="category">Flutter, pub.dev</span>
                         </figure>
                       </div>
                     </div>
@@ -648,6 +661,61 @@
     <!-- /Main Content -->
   </div>
 
+  <!-- Privacy Policy -->
+  <div id="privacy-policy" style="display: none;">
+    <div class="container mt-5">
+      <h1 class="text-center">Privacy Policy</h1>
+      <br/>
+      
+      <h2>1. Information We Collect:</h2>
+      <p><strong>Personal Information:</strong> We may collect certain personal information that you voluntarily provide to us through our website or mobile applications, such as your name, email address, contact number, and any other information you choose to provide.</p>
+      <p><strong>Sensitive User Data:</strong> We do not intentionally collect sensitive user data such as health information, biometric data, or financial information. If we need to collect such information for specific services, we will obtain your explicit consent.</p>
+      <p><strong>Cookies and Mobile Identifiers:</strong> We use cookies and similar technologies in our website and mobile applications to enhance your browsing experience and gather information about how you use our services. This includes mobile identifiers (such as advertising IDs) to personalize content and advertisements. You can disable cookies through your browser or mobile device settings, but this may limit certain features of our services.</p>
+      <br/>
+      
+      <h2>2. Use of Information:</h2>
+      <p><strong>Service Provision and Improvement:</strong> We use the collected information to provide, maintain, and improve our services, including personalizing your experience and responding to inquiries or requests.</p>
+      <p><strong>Analysis and Personalization:</strong> We analyze website and mobile application usage to understand user behavior and preferences, helping us improve user experience and functionality.</p>
+      <p><strong>Communications:</strong> We may use your contact information to send you relevant information, updates, or promotional content. You can opt-out of these communications at any time.</p>
+      <p><strong>Children’s Applications:</strong> For mobile applications designed for children, we collect and use personal information solely to provide the requested service and comply with applicable laws and regulations, including the Children’s Online Privacy Protection Act (COPPA).</p>
+      <br/>
+      
+      <h2>3. Information Sharing:</h2>
+      <p><strong>Third-Party Service Providers:</strong> We may share your information with trusted third-party service providers who assist us in operating our website and mobile applications, conducting our business, or providing services on our behalf. These providers are contractually obligated to maintain the confidentiality and security of your information.</p>
+      <p><strong>Legal Obligations and Protection:</strong> We may disclose your information if required by law, to protect our rights, comply with a legal obligation, or enforce our site policies.</p>
+      <p><strong>Explicit Consent:</strong> We do not sell, trade, or rent your personal information to third parties without your explicit consent.</p>
+      <br/>
+      
+      <h2>4. Data Security:</h2>
+      <p><strong>Security Measures:</strong> We implement reasonable security measures to protect your personal information from unauthorized access, misuse, alteration, or loss. These measures include encryption, secure servers, and access controls.</p>
+      <p><strong>User Responsibility:</strong> You are responsible for maintaining the confidentiality of any passwords or account credentials associated with our website or mobile applications.</p>
+      <br/>
+      
+      <h2>5. Data Retention and Deletion:</h2>
+      <p><strong>Retention Policy:</strong> We retain personal information for as long as necessary to fulfill the purposes outlined in this Privacy Policy, comply with legal obligations, resolve disputes, and enforce our agreements.</p>
+      <p><strong>Deletion Policy:</strong> You have the right to request the deletion of your personal information. Upon such request, we will delete your data, except for information that we are required to retain for legal or legitimate business purposes.</p>
+      <br/>
+      
+      <h2>6. Third-Party Links and Services:</h2>
+      <p><strong>External Links:</strong> Our website and mobile applications may contain links to third-party websites or services. We are not responsible for the privacy practices or content of these external sites. We encourage you to review their privacy policies before providing any personal information.</p>
+      <br/>
+      
+      <h2>7. Children’s Privacy:</h2>
+      <p><strong>COPPA Compliance:</strong> For mobile applications available for children, we comply with the Children's Online Privacy Protection Act (COPPA). We do not knowingly collect personal information from children under the age of 13 without verifiable parental consent. If we become aware that we have inadvertently collected personal information from a child under the age of 13, we will take steps to delete the information as soon as possible.</p>
+      <br/>
+      
+      <h2>8. Changes to the Privacy Policy:</h2>
+      <p><strong>Policy Updates:</strong> We reserve the right to modify or update this Privacy Policy at any time. The updated policy will be posted on our website and mobile applications with the revised effective date. We encourage you to review the policy periodically for any changes.</p>
+      <br/>
+      
+      <h2>9. Contact Us:</h2>
+      <p><strong>Inquiries:</strong> If you have any questions, concerns, or requests regarding this Privacy Policy or the handling of your information, please contact us at <a href="mailto:sujangainju01@gmail.com" target="_blank">sujangainju01@gmail.com</a>.</p>
+      <br/>
+      
+      <p>By using <a href="http://sujangainju.com.np">sujangainju.com.np</a> or the mobile applications available in the Google Play Store under the account <a href="https://play.google.com/store/apps/dev?id=6505221814874321222" target="_blank">Sujan Gainju</a>, you acknowledge that you have read and understood this Privacy Policy and agree to the collection, use, and disclosure of your information as described herein.</p>
+    </div>
+  </div>
+
   <script src="js/jquery-2.1.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/pages-switcher.js"></script>
@@ -664,6 +732,35 @@
       var date = new Date()
       $(".todayDate").html(date.getFullYear()) // you'll have to search how to format the date
     });
+    document.addEventListener("DOMContentLoaded", function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const pageName = urlParams.get("page");
+
+            if (pageName == "privacy-policy") {
+                document.getElementById("privacy-policy").style.display = "block";
+                document.body.style.overflow = "auto";
+                document.title = "Privacy Policy";
+                setMeta('description', 'Privacy Policy for Sujan Gainju website and mobile applications. Learn how we collect, use, and protect your personal information.');
+                setMeta('keywords', '');
+
+            } else {
+                document.getElementById("page").style.display = "block";
+                window.history.replaceState({}, document.title, window.location.pathname);
+            }
+        });
+
+        // Helper function to set meta tags
+        function setMeta(name, content) {
+            let meta = document.querySelector(`meta[name="${name}"]`);
+            if (meta) {
+                meta.setAttribute('content', content);
+            } else {
+                meta = document.createElement('meta');
+                meta.setAttribute('name', name);
+                meta.setAttribute('content', content);
+                document.head.appendChild(meta);
+            }
+        }
   </script>
 </body>
 
