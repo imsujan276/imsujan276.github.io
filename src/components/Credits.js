@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Credits.css";
 import FadeInSection from "./FadeInSection";
+import Nav from "react-bootstrap/Nav";
 
 class Credits extends React.Component {
   constructor() {
@@ -22,6 +23,8 @@ class Credits extends React.Component {
         <div id="credits">
           <div className="ending-credits">
             <div>All rights reserved. © 2024</div>
+
+            <Nav.Link href="#/privacy-policy">Privacy Policy</Nav.Link>
           </div>
         </div>
       </FadeInSection>

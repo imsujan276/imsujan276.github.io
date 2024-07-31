@@ -89,7 +89,7 @@ class Projects extends React.Component {
         <div className="section-header ">
           <span className="section-title">/ pet projects</span>
         </div>
-        <Carousel>
+        <Carousel interval={100000000}>
           {Object.keys(spotlightProjects).map((key, i) => (
             <Carousel.Item>
               <img

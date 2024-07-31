@@ -34,7 +34,7 @@ a {
 }
 
 #content {
-  /* padding: 80px 200px; */
+  padding: 0 70px;
   width: 100vw;
   overflow-x: hidden;
   overflow-y: hidden;
