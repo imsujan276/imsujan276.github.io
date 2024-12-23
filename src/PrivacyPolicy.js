@@ -9,6 +9,7 @@ function PrivacyPolicy() {
 
   useEffect(() => {
     window.scrollTo(0, 0)
+    window.document.title = "Privacy Policy - Sujan Gainju"
   }, [])
 
   return (
@@ -66,10 +67,10 @@ function PrivacyPolicy() {
                     <br/>
                     
                     <h2>9. Contact Us:</h2>
-                    <p><strong>Inquiries:</strong> If you have any questions, concerns, or requests regarding this Privacy Policy or the handling of your information, please contact us at <a href="mailto:sujangainju01@gmail.com" target="_blank">sujangainju01@gmail.com</a>.</p>
+                    <p><strong>Inquiries:</strong> If you have any questions, concerns, or requests regarding this Privacy Policy or the handling of your information, please contact us at <a href="mailto:sujangainju01@gmail.com" target="_blank" rel="noreferrer">sujangainju01@gmail.com</a>.</p>
                     <br/>
                     
-                    <p>By using <a href="http://sujangainju.com.np">sujangainju.com.np</a> or the mobile applications available in the Google Play Store under the account <a href="https://play.google.com/store/apps/dev?id=6505221814874321222" target="_blank">Sujan Gainju</a>, you acknowledge that you have read and understood this Privacy Policy and agree to the collection, use, and disclosure of your information as described herein.</p>
+                    <p>By using <a href="http://sujangainju.com.np">sujangainju.com.np</a> or the mobile applications available in the Google Play Store under the account <a href="https://play.google.com/store/apps/dev?id=6505221814874321222" target="_blank" rel="noreferrer">Sujan Gainju</a>, you acknowledge that you have read and understood this Privacy Policy and agree to the collection, use, and disclosure of your information as described herein.</p>
                 </Col>
             </Container>
         </div>
