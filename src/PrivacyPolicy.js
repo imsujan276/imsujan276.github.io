@@ -1,16 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Col } from 'react-bootstrap';
 import "./App.css";
 import "./styles/PrivacyPolicy.css";
 import "./styles/Global.css";
 import "rsuite/dist/styles/rsuite-default.css";
 
-function MainApp() {
+function PrivacyPolicy() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div>
         <div id="content">
             <Container id='privacy-policy-content'>
                 <Col>
+                    <h1 className='text-center'> Privacy Policy </h1>
+                    <hr />
                     <h2>1. Information We Collect:</h2>
                     <p>
                     <strong>Personal Information:</strong>
@@ -70,4 +77,4 @@ function MainApp() {
   );
 }
 
-export default MainApp;
+export default PrivacyPolicy;
