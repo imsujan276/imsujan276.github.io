@@ -199,8 +199,14 @@
   margin: 0;
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(2, minmax(140px, 200px));
+  /* Fits three across the 600px text column, and folds to two on a phone. */
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 4px 10px;
+}
+
+/* Breathing room before the heading that introduces the next list. */
+.about__text .tech-stack + p {
+  margin-top: 24px;
 }
 
 .tech-stack li {
