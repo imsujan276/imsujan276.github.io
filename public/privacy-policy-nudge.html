@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - Nudge</title>
+<meta name="description" content="Privacy policy for Nudge, an Android screen-time app. Nudge collects no personal data: no account, no server, no analytics, no ads. Everything stays on your device.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://sujangainju.com.np/privacy/nudge/">
+<meta property="og:title" content="Privacy Policy - Nudge">
+<meta property="og:description" content="Nudge collects no personal data. No account, no server, no analytics, no ads.">
+<meta property="og:type" content="article">
+<style>
+  /* Self-contained on purpose: no CDN fonts or stylesheets, so this renders
+     for crawlers and Play's review tooling with no network dependency. */
+  :root {
+    --bg: #ffffff;
+    --fg: #16141d;
+    --muted: #5b5768;
+    --rule: #e6e3ec;
+    --card: #f7f6fa;
+    --accent: #12996f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15121f;
+      --fg: #f2eee9;
+      --muted: #a49eb4;
+      --rule: #2e2745;
+      --card: #211c31;
+      --accent: #3fe0ae;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 46rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+  header { display: flex; align-items: center; gap: .9rem; margin-bottom: .35rem; }
+  header svg { width: 46px; height: 46px; flex: none; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0; letter-spacing: -.02em; }
+  .updated { color: var(--muted); font-size: .92rem; margin: 0 0 2.5rem; }
+  h2 {
+    font-size: 1.18rem; margin: 2.6rem 0 .7rem; letter-spacing: -.01em;
+    padding-top: 1.4rem; border-top: 1px solid var(--rule);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  p, li { color: var(--fg); }
+  .lede {
+    background: var(--card); border-left: 3px solid var(--accent);
+    padding: 1rem 1.15rem; border-radius: 0 8px 8px 0; margin: 0 0 1.5rem;
+  }
+  ul { padding-left: 1.15rem; }
+  li { margin: .4rem 0; }
+  strong { font-weight: 650; }
+  a { color: var(--accent); }
+  code {
+    background: var(--card); padding: .12em .4em; border-radius: 5px;
+    font-size: .9em; font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+  .table-scroll { overflow-x: auto; margin: 1.2rem 0; }
+  table { border-collapse: collapse; width: 100%; min-width: 30rem; font-size: .95rem; }
+  th, td { text-align: left; padding: .6rem .7rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-weight: 650; color: var(--muted); font-size: .82rem; text-transform: uppercase; letter-spacing: .04em; }
+  footer { margin-top: 3.5rem; padding-top: 1.4rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .92rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <svg viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs><linearGradient id="g" x1="26" y1="26" x2="82" y2="82" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7BEFC8"/><stop offset=".55" stop-color="#3FE0AE"/><stop offset="1" stop-color="#23A87E"/>
+    </linearGradient></defs>
+    <rect x="26" y="26" width="56" height="56" rx="14" fill="url(#g)"/>
+    <ellipse cx="44" cy="52" rx="8" ry="9" fill="#FFF6EC"/>
+    <ellipse cx="64" cy="52" rx="8" ry="9" fill="#FFF6EC"/>
+    <circle cx="45" cy="54" r="4.2" fill="#15121F"/>
+    <circle cx="65" cy="54" r="4.2" fill="#15121F"/>
+    <path d="M45 66 Q54 75 63 66" stroke="#15121F" stroke-width="3.4" fill="none" stroke-linecap="round"/>
+  </svg>
+  <h1>Privacy Policy - Nudge</h1>
+</header>
+<p class="updated">Last updated: 14 August 2026</p>
+
+<p class="lede"><strong>Nudge collects no personal data.</strong> There is no account, no server,
+no analytics and no advertising. Nothing you do in the app leaves your phone.</p>
+
+<p>Nudge is an Android screen-time tool that runs entirely on your device.</p>
+
+<h2>What Nudge can see</h2>
+<p>To know when to interrupt you, Nudge uses Android’s accessibility service to observe:</p>
+<ul>
+  <li><strong>which app is currently in the foreground</strong>, and</li>
+  <li><strong>the address bar of supported web browsers</strong>.</li>
+</ul>
+<p>This information is checked against the blocklist you configured, in memory, and then
+discarded. It is never written to storage, never sent anywhere, and never shared with anyone.
+Nudge does not read page content, messages, form fields, passwords, or anything you type.</p>
+<p>Nudge also uses Android’s usage-access permission to show you your own screen-time
+statistics. That data stays on the device.</p>
+
+<h2>What Nudge stores on your device</h2>
+<p>Kept in the app’s private storage, readable only by Nudge:</p>
+<ul>
+  <li><strong>Your settings</strong> - timer lengths, session limit, strict mode</li>
+  <li><strong>Your blocklist</strong> - the apps, website categories and domains you chose</li>
+  <li><strong>Your history</strong> - how many times you were interrupted, by what, and for how
+      long, kept for a maximum of 35 days and then deleted automatically</li>
+</ul>
+<p>Uninstalling Nudge, or clearing its data in Android settings, removes all of it permanently.
+There is no backup and no copy anywhere else.</p>
+
+<h2>Purchases</h2>
+<p>Nudge Pro is sold through Google Play. Payment is handled entirely by Google - Nudge never
+sees your card details, billing address, or Google account. The app stores only a single
+on/off flag recording that a purchase was made.</p>
+<p>Google’s handling of that transaction is covered by the
+<a href="https://play.google.com/intl/en/about/play-terms/" rel="noopener">Google Play Terms of
+Service</a> and Google’s Privacy Policy.</p>
+
+<h2>Permissions and why they exist</h2>
+<div class="table-scroll">
+<table>
+  <thead><tr><th>Permission</th><th>Why</th></tr></thead>
+  <tbody>
+    <tr><td>Accessibility service</td><td>Detect the foreground app and browser address bar, so blocks can trigger</td></tr>
+    <tr><td>Display over other apps</td><td>Draw the block screen on top of the app you opened</td></tr>
+    <tr><td>Notifications</td><td>Required by Android for the foreground service that keeps Nudge running</td></tr>
+    <tr><td>Usage access</td><td>Show your screen-time statistics</td></tr>
+    <tr><td>Ignore battery optimisation</td><td>Optional - stops the system killing the guard in the background</td></tr>
+    <tr><td>Run at startup</td><td>Restore your guard after a reboot</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>Children</h2>
+<p>Nudge is intended for people aged 18 and over and is not directed at children.</p>
+
+<h2>Third parties</h2>
+<p>Nudge contains no advertising SDK, no analytics SDK, and no crash-reporting SDK. The only
+third party involved is Google Play, and only when you make a purchase.</p>
+
+<h2>Changes</h2>
+<p>If a future version of Nudge ever collects data, this policy will be updated before that
+version ships, and the change will be described here and in the Play Store listing’s Data
+Safety section.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="mailto:sujangainju01@gmail.com">sujangainju01@gmail.com</a></p>
+
+<footer>Nudge</footer>
+
+</div>
+</body>
+</html>
