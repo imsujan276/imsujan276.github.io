@@ -104,8 +104,13 @@
     </ul>
     <p>
       This information is checked against the blocklist you configured, in memory, and then
-      discarded. It is never written to storage, never sent anywhere, and never shared with anyone.
-      Nudge does not read page content, messages, form fields, passwords, or anything you type.
+      discarded. It is never sent anywhere and never shared with anyone. Nudge does not read page
+      content, messages, form fields, passwords, or anything you type.
+    </p>
+    <p>
+      The one exception is a block itself: when Nudge interrupts you, it records the name of that app
+      or website and how long you waited, on your device only, so the statistics screen can show you
+      where your time goes. See below.
     </p>
     <p>
       Nudge also uses Android's usage-access permission to show you your own screen-time
@@ -170,10 +175,23 @@
           <tr><td>Notifications</td><td>Required by Android for the foreground service that keeps Nudge running</td></tr>
           <tr><td>Usage access</td><td>Show your screen-time statistics</td></tr>
           <tr><td>Ignore battery optimisation</td><td>Optional - stops the system killing the guard in the background</td></tr>
-          <tr><td>Run at startup</td><td>Restore your guard after a reboot</td></tr>
+          <tr><td>Biometrics</td>
+            <td>Optional - only if you turn on the app lock. See below</td>
+          </tr>
+          <tr>
+            <td>Run at startup</td><td>Restore your guard after a reboot</td></tr>
         </tbody>
       </table>
     </div>
+
+    <h3>The app lock</h3>
+    <p>
+      If you turn on <strong>Lock Nudge</strong>, opening the app asks for your fingerprint or device
+      PIN. This is handled entirely by Android's own prompt: Nudge asks the system "is this the
+      device owner?" and receives yes or no. It never sees, reads or stores your fingerprint, face or
+      PIN, and no biometric data is transmitted anywhere. Your fingerprint never leaves the secure
+      hardware on your phone.
+    </p>
 
     <h2 id="children">Children</h2>
     <p>Nudge is intended for people aged 18 and over and is not directed at children.</p>
