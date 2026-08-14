@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found - Sujan Gainju</title>
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#0a192f">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="preload" href="/fonts/ntr-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/page.css">
+
+  <script>
+    // Links from the old hash-routed build (sujangainju.com.np/#/privacy-policy)
+    // land on the home page, not here. This covers the other direction: a bare
+    // path that used to be a hash route, e.g. someone hand-typing /privacy-policy
+    // without the trailing slash on an old bookmark.
+    (function () {
+      var known = {
+        '/privacy-policy': '/privacy-policy/',
+        '/privacypolicy': '/privacy-policy/',
+        '/nudge': '/privacy-policy/nudge/',
+        '/nudge/privacy-policy': '/privacy-policy/nudge/',
+        '/privacy-policy-nudge.html': '/privacy-policy/nudge/',
+        '/privacy/nudge': '/privacy-policy/nudge/'
+      };
+      var target = known[window.location.pathname.replace(/\/+$/, '')];
+      if (target) window.location.replace(target);
+    })();
+  </script>
+</head>
+
+<body>
+  <nav class="nav" aria-label="Primary">
+    <div class="nav__inner">
+      <a class="nav__brand" href="/">Sujan Gainju</a>
+    </div>
+  </nav>
+
+  <main class="notfound">
+    <p class="notfound__code">404</p>
+    <h1>This page doesn't exist.</h1>
+    <p>The link may be out of date, or the page may have moved.</p>
+    <a class="btn" href="/">Back to the portfolio</a>
+  </main>
+
+  <script src="/js/main.js" defer></script>
+</body>
+
+</html>

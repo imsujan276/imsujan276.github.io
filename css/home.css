@@ -1,0 +1,777 @@
+/* ==========================================================================
+   Home page: intro, about, experience, projects.
+   ========================================================================== */
+
+.main {
+  width: 100%;
+  padding: 0 var(--content-pad);
+  overflow-x: clip;
+}
+
+.section {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding-top: 100px;
+  min-height: 50vh;
+}
+
+/* Intro ----------------------------------------------------------------- */
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  min-height: 100vh;
+  padding: calc(var(--nav-height) + 40px) 0 60px;
+}
+
+.intro__photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 64px;
+  border: 2px solid var(--lightest-navy);
+  box-shadow: 0 18px 40px -18px var(--dark-navy);
+  animation: intro-photo-in 0.9s var(--lift) both;
+  transition: transform 0.4s var(--lift), box-shadow 0.4s var(--ease-out),
+    border-color 0.4s var(--ease-out);
+}
+
+.intro__photo:hover {
+  transform: translateY(-6px) scale(1.03);
+  border-color: var(--green-bright);
+  box-shadow: 0 26px 50px -20px rgba(100, 255, 218, 0.35);
+}
+
+@keyframes intro-photo-in {
+  from {
+    opacity: 0;
+    transform: translateY(24px) scale(0.9);
+  }
+}
+
+.intro__title {
+  color: var(--lightest-slate);
+  font-size: clamp(44px, 9vw, 86px);
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0;
+  min-height: 1.1em;
+}
+
+.intro__name {
+  color: var(--green-bright);
+  font-weight: bold;
+}
+
+/* Typewriter caret. Keeps blinking after the line finishes, the way the
+   original react-typist cursor did. Sits on the baseline and dips slightly
+   below it so it reads as a text cursor rather than a floating bar. */
+.caret {
+  display: inline-block;
+  width: 3px;
+  height: 0.78em;
+  margin-left: 4px;
+  background: var(--green-bright);
+  vertical-align: baseline;
+  transform: translateY(0.08em);
+  animation: caret-blink 1.05s steps(2, start) infinite;
+}
+
+@keyframes caret-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.intro__subtitle {
+  color: var(--slate);
+  font-weight: 300;
+  font-size: clamp(26px, 5vw, 48px);
+  line-height: 1.2;
+  margin: 8px 0 18px;
+}
+
+.intro__desc {
+  color: var(--slate);
+  font-size: clamp(18px, 2.2vw, 22px);
+  line-height: 1.55;
+  max-width: 600px;
+  margin: 0 0 42px;
+}
+
+.intro__contact {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-size: clamp(17px, 2vw, 22px);
+  font-weight: bold;
+  padding: 12px 32px;
+  border: 1px solid var(--green-bright);
+  border-radius: 4px;
+  cursor: pointer;
+  /* Fill wipes in from the left on hover. */
+  background-image: linear-gradient(var(--green-tint), var(--green-tint));
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.4s var(--ease-out),
+    transform 0.25s var(--lift), box-shadow 0.3s var(--ease-out);
+}
+
+.intro__contact:hover {
+  background-size: 100% 100%;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px -14px var(--green-bright);
+}
+
+.intro__contact svg {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+}
+
+/* Scroll cue at the bottom of the hero. Block-level flex so it drops onto its
+   own line below the contact button rather than sitting beside it. */
+.intro__cue {
+  display: flex;
+  width: fit-content;
+  margin: 56px auto 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: var(--slate);
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.intro__cue svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+  animation: cue-bob 1.9s var(--ease-out) infinite;
+}
+
+.intro__cue:hover {
+  color: var(--green-bright);
+}
+
+@keyframes cue-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.55;
+  }
+  50% {
+    transform: translateY(7px);
+    opacity: 1;
+  }
+}
+
+/* About ----------------------------------------------------------------- */
+
+.about__content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.about__text {
+  color: var(--slate);
+  max-width: 600px;
+  font-size: 22px;
+  line-height: 1.55;
+  text-align: justify;
+}
+
+.about__text p {
+  margin: 0 0 18px;
+}
+
+.tech-stack {
+  padding: 14px 0 0;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  gap: 4px 10px;
+}
+
+.tech-stack li {
+  position: relative;
+  padding-left: 22px;
+  font-size: 18px;
+  color: var(--slate);
+  transition: color 0.2s var(--ease-out), transform 0.25s var(--lift);
+}
+
+.tech-stack li::before {
+  content: "\25B9";
+  color: var(--green-bright);
+  position: absolute;
+  left: 0;
+}
+
+.tech-stack li:hover {
+  color: var(--lightest-slate);
+  transform: translateX(4px);
+}
+
+.about__image {
+  flex: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 6px 13px 23px -5px rgba(0, 0, 0, 0.46);
+  transition: transform 0.35s var(--lift), box-shadow 0.35s var(--ease-out);
+}
+
+.about__image img {
+  display: block;
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.5s var(--ease-out);
+}
+
+.about__image:hover {
+  transform: translateY(-7px);
+  box-shadow: 10px 20px 34px -8px rgba(0, 0, 0, 0.55);
+}
+
+.about__image:hover img {
+  transform: scale(1.04);
+}
+
+/* Experience ------------------------------------------------------------ */
+
+#experience {
+  margin-bottom: 50px;
+}
+
+.jobs {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.jobs__tablist {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: none;
+  min-width: 210px;
+  border-left: 1px solid var(--lightest-navy);
+}
+
+/* Sliding indicator; position is set from js/main.js. */
+.jobs__marker {
+  position: absolute;
+  left: -1px;
+  top: 0;
+  width: 2px;
+  height: 0;
+  background: var(--green-bright);
+  border-radius: 2px;
+  transition: transform 0.35s var(--ease-out), height 0.35s var(--ease-out);
+}
+
+.jobs__tab {
+  appearance: none;
+  background: none;
+  border: 0;
+  font-family: inherit;
+  font-size: 16px;
+  text-align: left;
+  color: var(--light-slate);
+  padding: 14px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.25s var(--ease-out), background-color 0.25s var(--ease-out);
+}
+
+.jobs__tab:hover {
+  color: var(--green-bright);
+  background-color: var(--light-navy);
+}
+
+.jobs__tab[aria-selected="true"] {
+  color: var(--green-bright);
+  background-color: var(--green-tint);
+}
+
+.jobs__panels {
+  flex: 1;
+  min-width: 0;
+  padding-top: 6px;
+}
+
+.jobs__panel[hidden] {
+  display: none;
+}
+
+/* Each panel fades up when it becomes the active tab. */
+.jobs__panel {
+  animation: panel-in 0.45s var(--ease-out) both;
+}
+
+@keyframes panel-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+.job__title {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--lightest-slate);
+  margin: 0;
+  line-height: 1.25;
+}
+
+.job__company {
+  color: var(--green-bright);
+}
+
+.job__duration {
+  font-size: 18px;
+  color: var(--slate);
+  margin: 4px 0 0;
+}
+
+.job__desc {
+  padding: 24px 0 0;
+  margin: 0;
+  list-style: none;
+  max-width: 650px;
+}
+
+.job__desc li {
+  position: relative;
+  padding-left: 30px;
+  padding-bottom: 14px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--slate);
+}
+
+.job__desc li::before {
+  content: "\25B9";
+  color: var(--green-bright);
+  position: absolute;
+  left: 0;
+}
+
+/* Projects -------------------------------------------------------------- */
+
+.carousel {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto 60px;
+}
+
+.carousel__viewport {
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  background: var(--light-navy);
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  transition: transform 0.4s var(--ease-out);
+}
+
+.carousel__viewport:hover {
+  transform: scale(1.01);
+}
+
+.carousel__track {
+  display: flex;
+  height: 500px;
+  transition: transform 0.6s var(--ease-out);
+}
+
+.carousel__slide {
+  position: relative;
+  flex: 0 0 100%;
+  height: 100%;
+}
+
+.carousel__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0.5;
+  transition: opacity 0.5s var(--ease-out);
+}
+
+.carousel__slide[aria-hidden="false"] img {
+  opacity: 0.55;
+}
+
+/* A scrim across the full width of the slide, fading up out of the bottom
+   edge. Keeps the text readable over a light screenshot without looking like
+   a dialog pasted on top of one. */
+.carousel__caption {
+  position: absolute;
+  inset: auto 0 0 0;
+  text-align: center;
+  padding: 100px 8% 34px;
+  background: linear-gradient(
+    180deg,
+    rgba(2, 12, 27, 0) 0%,
+    rgba(2, 12, 27, 0.55) 32%,
+    rgba(2, 12, 27, 0.9) 68%,
+    rgba(2, 12, 27, 0.96) 100%
+  );
+  pointer-events: none;
+}
+
+/* The scrim itself ignores the pointer so swiping still works across it;
+   the links inside must not. */
+.carousel__caption a {
+  pointer-events: auto;
+}
+
+.carousel__caption > * {
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel__slide[aria-hidden="false"] .carousel__caption {
+  animation: caption-in 0.6s var(--ease-out) 0.1s both;
+}
+
+@keyframes caption-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+}
+
+.carousel__caption h3 {
+  font-size: clamp(24px, 4vw, 38px);
+  font-weight: bold;
+  color: var(--lightest-slate);
+  margin: 0 auto 8px;
+}
+
+.carousel__caption p {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.45;
+  color: var(--lightest-slate);
+  margin: 0 auto;
+}
+
+.carousel__tech {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--green-bright);
+  letter-spacing: 0.06em;
+  margin-top: 8px;
+}
+
+.carousel__btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--lightest-navy);
+  background: rgba(2, 12, 27, 0.72);
+  color: var(--lightest-slate);
+  cursor: pointer;
+  transition: background-color 0.25s var(--ease-out),
+    color 0.25s var(--ease-out), border-color 0.25s var(--ease-out),
+    transform 0.25s var(--lift);
+}
+
+.carousel__btn:hover {
+  background: var(--lightest-navy);
+  color: var(--green-bright);
+  border-color: var(--green-bright);
+}
+
+.carousel__btn--prev {
+  left: 14px;
+}
+
+.carousel__btn--next {
+  right: 14px;
+}
+
+.carousel__btn--prev:hover {
+  transform: translateY(-50%) translateX(-3px);
+}
+
+.carousel__btn--next:hover {
+  transform: translateY(-50%) translateX(3px);
+}
+
+.carousel__btn svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.carousel__dots {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -34px;
+  display: flex;
+  gap: 10px;
+}
+
+.carousel__dot {
+  width: 28px;
+  height: 4px;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: var(--lightest-navy);
+  cursor: pointer;
+  transition: background-color 0.3s var(--ease-out), width 0.3s var(--ease-out);
+}
+
+.carousel__dot[aria-selected="true"] {
+  background: var(--green-bright);
+  width: 40px;
+}
+
+/* Project cards --------------------------------------------------------- */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+@media (max-width: 1080px) {
+  .projects-grid {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+
+.project-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 2rem 1.75rem;
+  background-color: var(--light-navy);
+  border-radius: 16px;
+  border: 1px solid transparent;
+  transition: transform 0.3s var(--lift), background-color 0.3s var(--ease-out),
+    border-color 0.3s var(--ease-out), box-shadow 0.3s var(--ease-out);
+}
+
+.project-card:hover {
+  transform: translateY(-7px);
+  background-color: var(--lightest-navy);
+  border-color: rgba(100, 255, 218, 0.25);
+  box-shadow: 0 20px 30px -18px var(--dark-navy);
+}
+
+.project-card__header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 1.25rem;
+}
+
+.project-card__folder {
+  color: var(--green-bright);
+  transition: transform 0.3s var(--lift);
+}
+
+.project-card__folder svg {
+  width: 35px;
+  height: 35px;
+  fill: currentColor;
+  display: block;
+}
+
+.project-card:hover .project-card__folder {
+  transform: translateY(-2px) rotate(-4deg);
+}
+
+.project-card__title {
+  color: var(--lightest-slate);
+  font-size: 24px;
+  font-weight: bold;
+  transition: color 0.25s var(--ease-out);
+}
+
+.project-card:hover .project-card__title {
+  color: var(--green-bright);
+}
+
+.project-card__desc {
+  color: var(--slate);
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 6px 0 24px;
+  flex: 1;
+}
+
+.project-card__tech {
+  color: var(--slate);
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+
+/* Icon links shared by cards and carousel captions. */
+.external-links {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.external-links a {
+  display: inline-grid;
+  place-items: center;
+  color: var(--lightest-slate);
+  transition: color 0.25s var(--ease-out), transform 0.25s var(--lift);
+}
+
+.external-links a:hover {
+  color: var(--green-bright);
+  transform: translateY(-3px);
+}
+
+.external-links svg {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+  display: block;
+}
+
+.carousel__caption .external-links {
+  margin-top: 14px;
+}
+
+/* Responsive ------------------------------------------------------------ */
+
+@media only screen and (max-width: 900px) {
+  .about__content {
+    gap: 34px;
+  }
+
+  .about__image img {
+    width: 220px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .jobs {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .jobs__tablist {
+    flex-direction: row;
+    width: 100%;
+    min-width: 0;
+    border-left: 0;
+    border-bottom: 1px solid var(--lightest-navy);
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .jobs__tablist::-webkit-scrollbar {
+    display: none;
+  }
+
+  .jobs__marker {
+    left: 0;
+    top: auto;
+    bottom: -1px;
+    width: 0;
+    height: 2px;
+  }
+
+  .jobs__tab {
+    flex: 1 0 auto;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section {
+    padding-top: 84px;
+    min-height: unset;
+  }
+
+  #intro {
+    padding-top: calc(var(--nav-height) + 24px);
+    min-height: unset;
+    padding-bottom: 40px;
+  }
+
+  .intro__photo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 44px;
+  }
+
+  .intro__cue {
+    display: none;
+  }
+
+  .about__content {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .about__text {
+    font-size: 18px;
+    max-width: none;
+  }
+
+  .about__image img {
+    width: 190px;
+  }
+
+  .job__title {
+    font-size: 22px;
+  }
+
+  .carousel__track {
+    height: 380px;
+  }
+
+  .carousel__caption {
+    bottom: 16px;
+    padding: 18px 16px 14px;
+  }
+
+  .carousel__btn {
+    width: 38px;
+    height: 38px;
+  }
+
+  .carousel__btn--prev {
+    left: 8px;
+  }
+
+  .carousel__btn--next {
+    right: 8px;
+  }
+}
