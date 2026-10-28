@@ -18,6 +18,7 @@ Every directory with an `index.html` is a URL. The repo root **is** the site.
 /                            index.html    https://sujangainju.com.np/
 /privacy-policy/             index.html    .../privacy-policy/
 /privacy-policy/nudge/       index.html    .../privacy-policy/nudge/
+/privacy-policy/adbloom/     index.html    .../privacy-policy/adbloom/
 /404.html                    served by GitHub Pages for unknown paths
                              (also redirects a handful of legacy URLs)
 
